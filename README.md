@@ -32,6 +32,19 @@ This project answers those questions using a clear and reproducible Python workf
 
 ---
 
+## Key outputs
+
+The workflow produces:
+
+- a synthetic hourly coastal water-level dataset,
+- a detected exceedance-event table,
+- event statistics including duration, peak level and exceedance height,
+- monthly exceedance summaries,
+- ranked annual maximum water-level plot,
+- engineering-style visualisations saved to `/figures`.
+
+---
+
 ## Repository structure
 
 ```text
@@ -179,3 +192,13 @@ It is especially relevant to roles involving coastal resilience, marine engineer
 This project is a simplified portfolio case. The dataset is synthetic and the return-period plot is only a ranked extreme-value screening plot, not a formal design-level extreme-value analysis.
 
 A full professional coastal flood-risk assessment would require validated measured or modelled data, careful datum handling, longer records, local bathymetry/topography, hydraulic boundary conditions, and formal statistical treatment of extremes.
+
+---
+
+## Possible extensions
+
+- Replace synthetic data with measured tide-gauge data.
+- Add formal extreme-value analysis using longer records.
+- Include wave setup, wind speed/direction or atmospheric pressure.
+- Compare multiple flood thresholds representing different asset elevations.
+- Build a simple dashboard for coastal-risk screening.
